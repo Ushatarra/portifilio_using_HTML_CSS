@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Usha is a Python backend developer building secure APIs and thoughtful web applications.">
+    <title>Usha | Python Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <a class="wordmark" href="#home" aria-label="Usha, home">U<span>.</span></a>
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> OPEN TO BACKEND INTERNSHIPS</p>
+                <h1 id="hero-title">Building the<br>logic behind<br><span>better things.</span></h1>
+                <p class="hero-intro">I'm Usha, a Python backend developer who enjoys turning complex problems into secure, dependable systems.</p>
+                <div class="hero-actions">
+                    <a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+                    <a class="text-link" href="myresume.pdf" download="Usha_Resume.pdf">Download resume <span aria-hidden="true">↓</span></a>
+                </div>
+                <fieldset class="theme-picker" aria-label="Choose page background">
+                    <legend>PAGE COLOR</legend>
+                    <input type="radio" name="theme" id="theme-paper" checked>
+                    <label class="theme-swatch theme-paper" for="theme-paper" title="Warm paper"><span class="visually-hidden">Warm paper</span></label>
+                    <input type="radio" name="theme" id="theme-mint">
+                    <label class="theme-swatch theme-mint" for="theme-mint" title="Soft mint"><span class="visually-hidden">Soft mint</span></label>
+                    <input type="radio" name="theme" id="theme-rose">
+                    <label class="theme-swatch theme-rose" for="theme-rose" title="Soft rose"><span class="visually-hidden">Soft rose</span></label>
+                </fieldset>
+            </div>
+            <div class="portrait-wrap">
+                <div class="portrait-note">PYTHON · FLASK · APIs</div>
+                <img class="portrait" src="myself.jpeg" alt="Portrait of Usha">
+                <span class="portrait-index" aria-hidden="true">01 / 04</span>
+            </div>
+            <a class="scroll-cue" href="#about"><span aria-hidden="true">↓</span> SCROLL TO EXPLORE</a>
+        </section>
+
+        <section class="about section-wrap section-rule" id="about" aria-labelledby="about-title">
+            <div class="section-label"><span>01</span> A LITTLE ABOUT ME</div>
+            <div class="about-content">
+                <h2 id="about-title">Curious by nature.<br><span>Backend by choice.</span></h2>
+                <div class="about-copy">
+                    <p>I am a Computer Science student with a strong interest in backend development using Python. I focus on building secure, scalable applications with clean architecture and efficient database integration.</p>
+                    <p>I have hands-on experience developing REST APIs with Flask, implementing authentication systems, and working with PostgreSQL. Projects such as an authentication service, a job application tracker, and a student management system keep me learning and sharpening my system design skills.</p>
+                    <p>Right now, I am strengthening my foundation in Data Structures and Algorithms while preparing for backend internship opportunities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section-wrap section-rule" id="skills" aria-labelledby="skills-title">
+            <div class="section-label"><span>02</span> WHAT I WORK WITH</div>
+            <div class="skills-heading">
+                <h2 id="skills-title">Tools of<br><span>the trade.</span></h2>
+                <p>A practical toolkit for building, securing, and shipping backend applications.</p>
+            </div>
+            <div class="skill-grid">
+                <article class="skill-item">
+                    <span class="skill-number">01</span>
+                    <h3>Languages</h3>
+                    <p>Python, SQL, HTML, CSS</p>
+                </article>
+                <article class="skill-item">
+                    <span class="skill-number">02</span>
+                    <h3>Backend</h3>
+                    <p>Flask, REST API development, JWT authentication</p>
+                </article>
+                <article class="skill-item">
+                    <span class="skill-number">03</span>
+                    <h3>Databases</h3>
+                    <p>PostgreSQL, SQLite, SQLAlchemy</p>
+                </article>
+                <article class="skill-item">
+                    <span class="skill-number">04</span>
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, Swagger, Render</p>
+                </article>
+                <article class="skill-item">
+                    <span class="skill-number">05</span>
+                    <h3>Foundations</h3>
+                    <p>Data structures, algorithms, OOP, problem solving</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="projects section-wrap section-rule" id="projects" aria-labelledby="projects-title">
+            <div class="section-label"><span>03</span> SELECTED PROJECTS</div>
+            <div class="projects-heading">
+                <h2 id="projects-title">Made to work.<br><span>Built to learn.</span></h2>
+                <p>Backend systems and applications, made one thoughtful feature at a time.</p>
+            </div>
+            <div class="project-list">
+                <article class="project">
+                    <div class="project-meta"><span>01</span><span>API · SECURITY</span></div>
+                    <div class="project-main">
+                        <h3>Job Application Tracker</h3>
+                        <p>A RESTful service for tracking job applications, with secure user authentication and protected endpoints. Built with Flask and PostgreSQL, documented with Swagger, and deployed on Render.</p>
+                        <p class="tech-list">FLASK <i></i> POSTGRESQL <i></i> SQLALCHEMY <i></i> JWT <i></i> SWAGGER</p>
+                        <div class="project-links"><a href="https://job-application-tracker-api-iseh.onrender.com/docs" target="_blank" rel="noreferrer">Live API <span aria-hidden="true">↗</span></a><a href="https://github.com/Ushatarra/Job_Application_Tracker_API" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+                    </div>
+                    <span class="project-arrow" aria-hidden="true">↗</span>
+                </article>
+                <article class="project">
+                    <div class="project-meta"><span>02</span><span>MICROSERVICE · AUTH</span></div>
+                    <div class="project-main">
+                        <h3>Secure Authentication Service</h3>
+                        <p>A Flask authentication microservice for registration, login, email verification, password resets, and session management. Includes password hashing, refresh token rotation, rate limiting, Docker, and PostgreSQL.</p>
+                        <p class="tech-list">PYTHON <i></i> FLASK <i></i> JWT <i></i> POSTGRESQL <i></i> DOCKER <i></i> PYTEST</p>
+                        <div class="project-links"><a href="https://auth-service-7ns9.onrender.com" target="_blank" rel="noreferrer">Live service <span aria-hidden="true">↗</span></a><a href="https://github.com/Ushatarra/Auth_Service" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+                    </div>
+                    <span class="project-arrow" aria-hidden="true">↗</span>
+                </article>
+                <article class="project">
+                    <div class="project-meta"><span>03</span><span>API · EDUCATION</span></div>
+                    <div class="project-main">
+                        <h3>Student Management System</h3>
+                        <p>A Flask REST API for students, courses, enrollments, and academic results. JWT authentication and role-based access control support admin course management, enrollment tracking, and result publishing.</p>
+                        <p class="tech-list">PYTHON <i></i> FLASK <i></i> SQLALCHEMY <i></i> JWT <i></i> SQLITE</p>
+                        <div class="project-links"><a href="https://github.com/Ushatarra/student_management_system_RESTapi" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+                    </div>
+                    <span class="project-arrow" aria-hidden="true">↗</span>
+                </article>
+                <article class="project">
+                    <div class="project-meta"><span>04</span><span>WEB APP · NOTES</span></div>
+                    <div class="project-main">
+                        <h3>Notebook</h3>
+                        <p>A personal notes manager for creating, editing, and deleting notes within an authenticated session. Notes can be organized with categories and are stored with SQLAlchemy.</p>
+                        <p class="tech-list">PYTHON <i></i> FLASK <i></i> SQLALCHEMY <i></i> SQLITE <i></i> HTML <i></i> CSS</p>
+                        <div class="project-links"><a href="https://github.com/Ushatarra/Notebook-App" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+                    </div>
+                    <span class="project-arrow" aria-hidden="true">↗</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+            <div class="section-label"><span>04</span> GET IN TOUCH</div>
+            <div class="contact-content">
+                <h2 id="contact-title">Have a good<br><span>problem to solve?</span></h2>
+                <div class="contact-detail">
+                    <p>I'm open to backend development internships and conversations about building useful things. Drop me a note.</p>
+                    <a class="contact-link" href="https://www.linkedin.com/in/tarra-usha" target="_blank" rel="noreferrer">Message me on LinkedIn <span aria-hidden="true">↗</span></a>
+                    <div class="social-links">
+                        <a href="https://github.com/Ushatarra" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="wordmark" href="#home">U<span>.</span></a>
+        <p>© 2026 Usha <span>·</span> Python Backend Developer</p>
+        <a class="back-top" href="#home">BACK TO TOP ↑</a>
+    </footer>
+</body>
+</html>
